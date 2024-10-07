@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #00704A;
+    color: #fff;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.logo img {
+    width: 100px;
+}
+  
+nav {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+  
+.menu {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+  
+.menu li {
+    margin-right: 20px;
+}
+
+.menu li a{
+    color: white;
+}
+
+.menu li a:hover{
+    color: white;
+    font-weight: bold; /* cuando te posas encima al ampliarse el resto se mueve, como evitarlo? investigar*/
+}
+
+
+footer {
+    display: flex;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.contact-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 1;
+    align-items: center;
+}
+
+iframe{
+    width: 150px;
+    height: 150px;
+}
+.contact-info p {
+    margin: 5px 0;
+}
+
+/* hasta aqui es todo común en todas las paginas
+    no tendria mas sentido hacer un style header 
+    y style footer ¿? */
+
+
+.form-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+    max-width: 700px;
+    padding: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 0 auto;
+    padding: 10px;
+    line-height: 1.5;
+}
+
+#btn-submit{
+    border-radius: 5px;
+    width: 120px;
+}
